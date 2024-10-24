@@ -6,9 +6,12 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="featureFiles/LoginwithData.feature", glue="stepDefinitions")
+@CucumberOptions(features="featureFiles/DataTableWithExamples.feature", 
+				glue="stepDefinitions",
+				dryRun = true)
 
 
-public class RunnerClass {
+public class RunnerClass 
+{
 	
 	}
