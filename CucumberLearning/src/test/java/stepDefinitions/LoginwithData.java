@@ -17,7 +17,7 @@ public class LoginwithData {
 	public void user_is_navigating_to_the_login_page() throws InterruptedException {
 		driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 	@When("the user enters valid username as {string}")
 	public void the_user_enters_valid_username_as(String uname) {

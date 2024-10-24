@@ -1,2 +1,7 @@
-/Users/kalai/Documents/workspace/CucumberLearning/src/test/java/runner/RunnerClass.java
-/Users/kalai/Documents/workspace/CucumberLearning/src/test/java/stepDefinitions/OpenGoogleDefinitions.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/stepDefinitions/DataTableWithExamples.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/stepDefinitions/DataTableWithHeaders.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/runner/RunnerClass.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/stepDefinitions/OpenGoogleDefinitions.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/stepDefinitions/LoginwithData.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/stepDefinitions/Expressions.java
+/Users/kalai/git/CucumberProjects/CucumberLearning/src/test/java/stepDefinitions/LoginOrangeHRM.java
