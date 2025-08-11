@@ -4,4 +4,3 @@ runner/RunnerClass.class
 stepDefinitions/OpenGoogleDefinitions.class
 stepDefinitions/LoginOrangeHRM.class
 stepDefinitions/LoginwithData.class
-stepDefinitions/DataTableWithHeaders.class
