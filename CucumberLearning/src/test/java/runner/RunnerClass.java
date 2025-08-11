@@ -6,9 +6,10 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="featureFiles/DataTableWithExamples.feature", 
+@CucumberOptions(features="featureFiles", 
 				glue="stepDefinitions",
-				dryRun = true)
+				dryRun = false,
+				plugin = {"pretty", "html:target/cucumber-reports"})
 
 
 public class RunnerClass 

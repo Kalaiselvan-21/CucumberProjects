@@ -3,10 +3,10 @@ package stepDefinitions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
+import utils.DriverManager;
 
 public class DataTableWithExamples {
 	
@@ -15,7 +15,7 @@ public class DataTableWithExamples {
 	
 	@Given("Proceed to login scenario")
 	public void proceed_to_login_scenario() throws InterruptedException {
-		driver = new ChromeDriver();
+		driver = DriverManager.createChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(3000);
 	    
