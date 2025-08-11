@@ -3,11 +3,11 @@ package stepDefinitions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import utils.DriverManager;
 
 public class LoginOrangeHRM {
 	
@@ -15,7 +15,7 @@ public class LoginOrangeHRM {
 	
 	@Given("user is navigating to login page")
 	public void user_is_navigating_to_login_page() throws InterruptedException {
-		driver = new ChromeDriver();
+		driver = DriverManager.createChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(2000);
 	}

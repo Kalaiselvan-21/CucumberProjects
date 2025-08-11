@@ -1,10 +1,10 @@
 package stepDefinitions;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import utils.DriverManager;
 
 public class OpenGoogleDefinitions {
 	
@@ -14,7 +14,7 @@ public class OpenGoogleDefinitions {
 	@Given("user is entering google.co.in")
 	public void user_is_entering_google_co_in() 
 	{
-	   driver = new ChromeDriver();
+	   driver = DriverManager.createChromeDriver();
 	   driver.get("http://google.co.in");
 	    
 	}

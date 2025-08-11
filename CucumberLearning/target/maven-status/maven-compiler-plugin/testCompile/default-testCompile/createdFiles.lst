@@ -1,4 +1,5 @@
 stepDefinitions/DataTableWithExamples.class
+utils/DriverManager.class
 stepDefinitions/Expressions.class
 runner/RunnerClass.class
 stepDefinitions/OpenGoogleDefinitions.class
